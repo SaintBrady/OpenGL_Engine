@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>G:\OpenGL\GLFW_Files\include;$(IncludePath)</IncludePath>
-    <LibraryPath>G:\OpenGL\GLFW_Files\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\brayd\source\repos\OpenGL_Engine\OpenGL_Engine\GLFW_Files\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\brayd\source\repos\OpenGL_Engine\OpenGL_Engine\GLFW_Files\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -134,6 +134,9 @@
   <ItemGroup>
     <ClCompile Include="G:\OpenGL\GLFW_Files\include\glad.c" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
